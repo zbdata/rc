@@ -1,11 +1,21 @@
  <template>
     <div class="container">
 
+        <div class="my-3 p-3 bg-white rounded shadow-sm">
+            <h6 class="border-bottom border-gray pb-2 mb-0">Filtros de Pesquisa</h6>
+            <div class="media text-muted pt-3">
+            </div>
+            <small class="d-block text-center mt-3">
+                <button class="btn btn-success" data-target="#addNew">Pesquisar</button>
+                <button class="btn btn-danger" data-target="#addNew">Limpar</button>
+            </small>
+        </div>
+
         <div class="row mt-4">
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">Users List</h3>
+                        <h3 class="card-title">Lista de Usuários</h3>
 
                         <div class="card-tools">
                             <div class="input-group input-group-sm">

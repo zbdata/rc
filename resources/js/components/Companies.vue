@@ -2,7 +2,7 @@
     <div class="container">
 
         <div class="my-3 p-3 bg-white rounded shadow-sm">
-            <h6 class="border-bottom border-gray pb-2 mb-0">Filtro de Pesquisa</h6>
+            <h6 class="border-bottom border-gray pb-2 mb-0">Filtros de Pesquisa</h6>
             <div class="media text-muted pt-3">
 
 

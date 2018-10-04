@@ -102,7 +102,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-file-contract"></i>
-                            <p>Contratos
+                            <p>Módulo de Contratos
                                 <i class="right fa fa-angle-left"></i>
                             </p>
                         </a>
@@ -110,13 +110,19 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             <li class="nav-item">
                                 <router-link to="/contracts" class="nav-link">
                                     <i class="fas fa-users nav-icon"></i>
-                                    <p>Registro de Contratos</p>
+                                    <p>Registrar Contrato</p>
+                                </router-link>
+                            </li>
+                            <li class="nav-item">
+                                <router-link to="/contracts" class="nav-link">
+                                    <i class="fas fa-users nav-icon"></i>
+                                    <p>Consultar Veículos</p>
                                 </router-link>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <router-link to="/profile" class="nav-link">
+                        <router-link to="/invoices" class="nav-link">
                             <i class="nav-icon fas fa-calculator"></i>
                             <p>Faturamento</p>
                         </router-link>
@@ -125,6 +131,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <router-link to="/profile" class="nav-link">
                             <i class="nav-icon fas fa-user"></i>
                             <p>Profile</p>
+                        </router-link>
+                    </li>
+                    <li class="nav-item">
+                        <router-link to="/developer" class="nav-link">
+                            <i class="nav-icon fas fa-cogs"></i>
+                            <p>Developer</p>
                         </router-link>
                     </li>
                     <li class="nav-item">
